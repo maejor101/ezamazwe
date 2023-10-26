@@ -1,0 +1,280 @@
+.left-logo-container {
+  position: absolute;
+  top: calc(50% - 512px);
+  left: calc(50% - 720px);
+  width: 30.39em;
+  height: 56.89em;
+  overflow: hidden;
+  object-fit: cover;
+}
+.ezamazwe-edutech {
+  margin: 0;
+  position: absolute;
+  top: 2.58em;
+  left: 3.93em;
+  font-size: 2em;
+  font-weight: 500;
+  font-family: Roboto;
+}
+.login-to-your {
+  margin: 0;
+  position: absolute;
+  top: 7.71em;
+  left: 8.1em;
+  font-size: 1.33em;
+  font-weight: 400;
+  font-family: inherit;
+}
+.login-button-child {
+  position: absolute;
+  width: calc(100% - 1px);
+  top: 0em;
+  right: 0.06em;
+  left: 0em;
+  border-radius: 30px;
+  background-color: #1c3f53;
+  height: 3.94em;
+}
+.sign-in {
+  position: absolute;
+  width: 100%;
+  top: 0em;
+  left: 0em;
+  font-size: 1.11em;
+  font-family: Poppins;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.55em;
+}
+.login-button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: calc(100% - 316px);
+  top: 34.89em;
+  right: 9.03em;
+  left: 8.53em;
+  height: 3.94em;
+}
+.label1 {
+  position: absolute;
+  top: 0em;
+  left: 0em;
+  font-size: 0.89em;
+}
+.icon1 {
+  position: absolute;
+  top: 0.17em;
+  right: 2.72em;
+  width: 1.33em;
+  height: 1.33em;
+  overflow: hidden;
+  object-fit: cover;
+}
+.hide1 {
+  position: absolute;
+  top: 0em;
+  right: 0em;
+  font-size: 1em;
+}
+.password-hide-see1 {
+  position: absolute;
+  top: 0em;
+  right: 0.49em;
+  width: 4.06em;
+  height: 1.5em;
+  display: none;
+  text-align: right;
+  color: rgba(102, 102, 102, 0.8);
+}
+.label-group {
+  align-self: stretch;
+  position: relative;
+  height: 1.5em;
+}
+.text-field2 {
+  border: 1px solid rgba(102, 102, 102, 0.35);
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  border-radius: 12px;
+  box-sizing: border-box;
+  height: 3.11em;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.error-message1 {
+  position: relative;
+  font-size: 0.78em;
+  color: #ee1d52;
+  display: none;
+}
+.text-field1 {
+  width: 31.56em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.22em;
+}
+.login-form {
+  position: absolute;
+  top: 15.44em;
+  left: 2.25em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  color: #1c3f53;
+}
+.text-field3 {
+  position: absolute;
+  top: 0em;
+  left: 0em;
+  width: 31.56em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.22em;
+}
+.forgot-your-password {
+  position: absolute;
+  top: 8.18em;
+  left: 24.63em;
+  font-size: 0.89em;
+  text-decoration: underline;
+  text-align: right;
+  display: inline-block;
+  width: 10.88em;
+  height: 2.07em;
+}
+.text-field-parent {
+  position: absolute;
+  top: 23.22em;
+  left: 2.19em;
+  width: 31.56em;
+  height: 9.11em;
+  text-align: left;
+  color: #1c3f53;
+}
+.inner-form-container {
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 36.11em;
+  height: 43.67em;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.right-form-container {
+  position: absolute;
+  top: 0em;
+  left: calc(50% - 163px);
+  background-color: #1c3f53;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 49.06em;
+  height: 56.89em;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 6.33em 6.22em;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: center;
+  color: #333;
+  font-family: Poppins;
+}
+/* .cms-login {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 56.89em;
+  overflow: hidden;
+} */
+.login-button.clicked {
+  transform: scale(0.95); 
+  transition: transform 0.2s; 
+}
+
+
+
+/* responsiveness */
+.cms-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-column {
+  flex: 2;
+  padding: 20px;
+}
+
+/* .right-form-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+/* Add this to your CSS */
+.text-field {
+  margin-bottom: 20px;
+}
+
+.text-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border 0.3s;
+}
+
+.text-field input:focus {
+  border-color: #007bff; 
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .text-field {
+    margin-bottom: 15px;
+  }
+
+  .text-field input {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .text-field {
+    margin-bottom: 10px;
+  }
+
+  .text-field input {
+    padding: 6px;
+  }
+}
+
+
+
+
+
